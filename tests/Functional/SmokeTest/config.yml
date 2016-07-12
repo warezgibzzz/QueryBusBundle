@@ -2,7 +2,6 @@ parameters:
     log_file: %kernel.logs_dir%/%kernel.environment%.log
 
 services:
-
     test_query_handler:
         class: Warezgibzzz\QueryBusBundle\Tests\Functional\SmokeTest\TestQueryHandler
         tags:

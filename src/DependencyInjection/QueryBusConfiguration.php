@@ -6,7 +6,7 @@
  * Time: 23:49
  */
 
-namespace Gibzzz\QueryBusBundle\DependencyInjection;
+namespace Warezgibzzz\QueryBusBundle\DependencyInjection;
 
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;

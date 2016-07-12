@@ -2,10 +2,10 @@
 
 namespace Warezgibzzz\QueryBusBundle\Tests\Functional\SmokeTest;
 
-use Warezgibzzz\QueryBusBundle\WarezgibzzzQueryBusBundle;
 use Symfony\Bundle\MonologBundle\MonologBundle;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\HttpKernel\Kernel;
+use Warezgibzzz\QueryBusBundle\WarezgibzzzQueryBusBundle;
 
 class TestKernel extends Kernel
 {

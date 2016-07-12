@@ -10,20 +10,24 @@ class SmokeTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      */
-    public function it_handles_a_query_then_dispatches_events_for_all_modified_entities()
+    public function it_returns_a_query_result()
     {
         $kernel = new TestKernel('test', true);
         $kernel->boot();
         $container = $kernel->getContainer();
 
         $queryBus = $container->get('query_bus');
-        $query = new TestQuery();
-        $queryBus->handle($query);
-
-        $this->assertTrue($container->get('test_query_handler')->queryHandled);
         
-        // some_other_test_query is triggered by test_event_handler
-        $this->assertTrue($container->get('some_other_test_query_handler')->queryHandled);
+        $request = new \stdClass('test');
+        
+        $query = new TestQuery();
+        $query->request = clone $request;
+        
+        $queryResult = null;
+        
+        $queryBus->handle($query, $queryResult);
+
+        $this->assertEquals($request, $queryResult);
         
         // it has logged some things
         $loggedMessages = file_get_contents($container->getParameter('log_file'));

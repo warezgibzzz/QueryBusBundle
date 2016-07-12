@@ -6,7 +6,7 @@ services:
         class: Ajgl\SimpleBus\Message\Bus\Middleware\CatchReturnMessageBusSupportingMiddleware
         public: false
         tags:
-            - { name: message_bus, type: query, middleware_tag: query_bus_middleware }
+            - { name: query_bus, type: query, middleware_tag: query_bus_middleware }
 
     simple_bus.query_bus.delegates_to_message_handler_middleware:
         class: Ajgl\SimpleBus\Message\Handler\DelegatesToMessageHandlerAndCatchReturnMiddleware
@@ -16,11 +16,11 @@ services:
         tags:
             - { name: query_bus_middleware, priority: -1000 }
 
-    simple_bus.query_bus.class_based_query_bus_resolver:
+    simple_bus.query_bus.class_based_query_name_resolver:
         class: SimpleBus\Message\Name\ClassBasedNameResolver
         public: false
 
-    simple_bus.query_bus.named_message_query_bus_resolver:
+    simple_bus.query_bus.named_message_query_name_resolver:
         class: SimpleBus\Message\Name\NamedMessageNameResolver
         public: false
 
@@ -42,7 +42,7 @@ services:
         class: SimpleBus\Message\Handler\Resolver\NameBasedMessageHandlerResolver
         public: false
         arguments:
-            - '@simple_bus.query_bus.query_bus_resolver'
+            - '@simple_bus.query_bus.query_name_resolver'
             - '@simple_bus.query_bus.query_handler_map'
 
     simple_bus.query_bus.finishes_query_before_handling_next_middleware:

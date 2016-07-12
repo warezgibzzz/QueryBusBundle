@@ -6,7 +6,7 @@
  * Time: 22:31
  */
 
-namespace Gibzzz\QueryBusBundle\DependencyInjection;
+namespace Warezgibzzz\QueryBusBundle\DependencyInjection;
 
 
 use Symfony\Component\Config\FileLocator;
