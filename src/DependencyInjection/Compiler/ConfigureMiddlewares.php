@@ -6,7 +6,7 @@
  * Time: 23:51
  */
 
-namespace Warezgibzzz\QueryBusBundle\DependencyInjection\Compiler;
+namespace Gibzzz\QueryBusBundle\DependencyInjection\Compiler;
 
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;

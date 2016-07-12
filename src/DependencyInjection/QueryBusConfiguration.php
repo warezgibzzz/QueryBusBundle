@@ -6,7 +6,7 @@
  * Time: 23:49
  */
 
-namespace Warezgibzzz\QueryBusBundle\DependencyInjection;
+namespace Gibzzz\QueryBusBundle\DependencyInjection;
 
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
@@ -28,7 +28,7 @@ class QueryBusConfiguration implements ConfigurationInterface
         $rootNode
             ->addDefaultsIfNotSet()
             ->children()
-                ->enumNode('command_name_resolver_strategy')
+                ->enumNode('query_name_resolver_strategy')
                     ->values(['class_based', 'named_message'])
                     ->defaultValue('class_based')
                 ->end()

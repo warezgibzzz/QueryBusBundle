@@ -1,5 +1,5 @@
 <?php
-namespace Warezgibzzz\QueryBusBundle\DependencyInjection\Compiler;
+namespace Gibzzz\QueryBusBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
