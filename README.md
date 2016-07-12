@@ -1,5 +1,7 @@
 # QueryBusBundle
 
+[![Build Status](https://travis-ci.org/warezgibzzz/QueryBusBundle.svg?branch=master)](https://travis-ci.org/warezgibzzz/QueryBusBundle)
+
 Installation
 ============
 

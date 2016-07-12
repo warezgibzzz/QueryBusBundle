@@ -1,0 +1,21 @@
+parameters:
+    log_file: %kernel.logs_dir%/%kernel.environment%.log
+
+services:
+
+    test_query_handler:
+        class: Warezgibzzz\QueryBusBundle\Tests\Functional\SmokeTest\TestQueryHandler
+        tags:
+            - { name: query_handler, handles: Warezgibzzz\QueryBusBundle\Tests\Functional\SmokeTest\TestQuery }
+
+
+query_bus:
+    query_name_resolver_strategy: class_based
+    logging: ~
+
+monolog:
+    handlers:
+        main:
+            type:  stream
+            path:  %log_file%
+            level: debug
