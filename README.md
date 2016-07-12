@@ -1,6 +1,7 @@
 # QueryBusBundle
 
 [![Build Status](https://travis-ci.org/warezgibzzz/QueryBusBundle.svg?branch=master)](https://travis-ci.org/warezgibzzz/QueryBusBundle)
+[![Coverage Status](https://coveralls.io/repos/github/warezgibzzz/QueryBusBundle/badge.svg?branch=master)](https://coveralls.io/github/warezgibzzz/QueryBusBundle?branch=master)
 
 Installation
 ============
