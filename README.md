@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.org/warezgibzzz/QueryBusBundle.svg?branch=master)](https://travis-ci.org/warezgibzzz/QueryBusBundle)
 [![Coverage Status](https://coveralls.io/repos/github/warezgibzzz/QueryBusBundle/badge.svg?branch=master)](https://coveralls.io/github/warezgibzzz/QueryBusBundle?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/warezgibzzz/query-bus-bundle/v/stable)](https://packagist.org/packages/warezgibzzz/query-bus-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/warezgibzzz/query-bus-bundle/v/unstable)](https://packagist.org/packages/warezgibzzz/query-bus-bundle)
+[![Total Downloads](https://poser.pugx.org/warezgibzzz/query-bus-bundle/downloads)](https://packagist.org/packages/warezgibzzz/query-bus-bundle)
+[![Monthly Downloads](https://poser.pugx.org/warezgibzzz/query-bus-bundle/d/monthly)](https://packagist.org/packages/warezgibzzz/query-bus-bundle)
+[![Daily Downloads](https://poser.pugx.org/warezgibzzz/query-bus-bundle/d/daily)](https://packagist.org/packages/warezgibzzz/query-bus-bundle)
 
 Description
 ===========
