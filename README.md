@@ -7,7 +7,6 @@
 [![Total Downloads](https://poser.pugx.org/warezgibzzz/query-bus-bundle/downloads)](https://packagist.org/packages/warezgibzzz/query-bus-bundle)
 [![Monthly Downloads](https://poser.pugx.org/warezgibzzz/query-bus-bundle/d/monthly)](https://packagist.org/packages/warezgibzzz/query-bus-bundle)
 [![Daily Downloads](https://poser.pugx.org/warezgibzzz/query-bus-bundle/d/daily)](https://packagist.org/packages/warezgibzzz/query-bus-bundle)
-[![License](https://poser.pugx.org/warezgibzzz/query-bus-bundle/license)](https://packagist.org/packages/warezgibzzz/query-bus-bundle)
 
 Description
 ===========
