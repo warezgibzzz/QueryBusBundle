@@ -3,6 +3,12 @@
 [![Build Status](https://travis-ci.org/warezgibzzz/QueryBusBundle.svg?branch=master)](https://travis-ci.org/warezgibzzz/QueryBusBundle)
 [![Coverage Status](https://coveralls.io/repos/github/warezgibzzz/QueryBusBundle/badge.svg?branch=master)](https://coveralls.io/github/warezgibzzz/QueryBusBundle?branch=master)
 
+Description
+===========
+
+Query Bus bundle for Symfony2 adopting [AjglSimpleBusQueryBus](https://github.com/ajgarlag/AjglSimpleBusQueryBus) simple bus extension.
+Codebase is based on [SymfonyBridge](https://github.com/SimpleBus/SymfonyBridge) SimpleBus bundle.
+
 Installation
 ============
 
