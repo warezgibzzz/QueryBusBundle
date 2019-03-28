@@ -1,6 +1,7 @@
 services:
     query_bus:
         alias: simple_bus.query_bus
+        public: true
 
     simple_bus.query_bus:
         class: Ajgl\SimpleBus\Message\Bus\Middleware\CatchReturnMessageBusSupportingMiddleware
