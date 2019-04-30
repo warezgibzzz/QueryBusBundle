@@ -4,6 +4,7 @@ parameters:
 services:
     test_query_handler:
         class: Warezgibzzz\QueryBusBundle\Tests\Functional\SmokeTest\TestQueryHandler
+        public: true
         tags:
             - { name: query_handler, handles: Warezgibzzz\QueryBusBundle\Tests\Functional\SmokeTest\TestQuery }
 
